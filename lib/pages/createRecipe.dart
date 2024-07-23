@@ -48,11 +48,16 @@ class _CreateScreenState extends State<CreateScreen> {
           child: Column(
             children: [
               SizedBox(height: 20),
+              Icon(Icons.fastfood_outlined, color: Colors.black,),
               Text(
                 "Create Your Own Recipe!",
                 style: TextStyle(fontSize: 20),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 10),
+              Divider(height: 20),
+              SizedBox(height: 20,),
+              Text("Just type the Food Name and get the Recipe!"),
+              SizedBox(height: 10),
               TextField(
                 onChanged: (text) {
                   setState(() {
@@ -85,7 +90,7 @@ class _CreateScreenState extends State<CreateScreen> {
               // Removed commented SelectableText
 
               // Add the following code to display the recipe information in a card format
-              if (displayText != null && displayText!.isNotEmpty)
+                if (displayText != null && displayText!.isNotEmpty)
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Card(

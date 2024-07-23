@@ -119,9 +119,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                     child: Opacity(
                                       opacity: 1,
                                       child: ClipRRect(
-                                          borderRadius: BorderRadius.only(
-                                            topRight: Radius.circular(10.r),
-                                            topLeft: Radius.circular(10.r),
+                                          borderRadius: BorderRadius.circular(
+                                            24
                                           ),
                                           child: Image.asset(
                                             "assets/homepage/frame${index + 1}.png",
@@ -129,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           )),
                                     )),
                                 Padding(
-                                  padding: EdgeInsets.only(top: 100.h),
+                                  padding: EdgeInsets.only(top: 40.h), //padding for the card itself
                                   child: Column(
                                     children: [
                                       SizedBox(
@@ -180,7 +179,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ),
                             Positioned(
-                                bottom: 90.h,
+                                bottom: 20.h,
                                 left: 10.w,
                                 child: Container(
                                   child: Column(
@@ -201,73 +200,13 @@ class _HomeScreenState extends State<HomeScreen> {
                                             style:
                                             TextStyle(color: Colors.black),
                                           ),
-                                          SizedBox(
-                                            width: 100.w,
-                                          ),
-                                          Container(
-                                            decoration: BoxDecoration(
-                                                borderRadius:
-                                                BorderRadius.circular(10.r),
-                                                color: Colors.green),
-                                            child: Padding(
-                                              padding: EdgeInsets.symmetric(
-                                                  horizontal: 5.w),
-                                              child: Text(
-                                                "4.0★",
-                                                style: TextStyle(
-                                                    color: Colors.white),
-                                              ),
-                                            ),
-                                          )
+
                                         ],
                                       )
                                     ],
                                   ),
                                 )),
-                            Positioned(
-                                left: 10.w,
-                                bottom: 40.h,
-                                child: Container(
-                                  height: 40.h,
-                                  width: 310.w,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(10.r),
-                                    gradient: LinearGradient(
-                                      colors: [
-                                        Colors.indigo,
-                                        Colors.indigoAccent
-                                      ],
-                                      begin: Alignment.bottomLeft,
-                                      end: Alignment.topRight,
-                                    ),
-                                  ),
-                                  child: Row(
-                                    children: [
-                                      Icon(
-                                        Icons.percent,
-                                        color: Colors.white,
-                                      ),
-                                      Text(
-                                        "NEW ARRIVAL",
-                                        style: TextStyle(color: Colors.white),
-                                      ),
-                                      SizedBox(
-                                        width: 150.w,
-                                      ),
-                                      Card(
 
-                                        color: Colors.indigo,
-
-                                        child: Text(
-                                          "+1",
-                                          style:
-                                          TextStyle(color: Colors.white),
-                                        ),
-
-                                      ),
-                                    ],
-                                  ),
-                                ))
                           ],
                         ),
                       ),
