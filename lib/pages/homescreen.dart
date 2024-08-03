@@ -9,6 +9,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:like_button/like_button.dart';
 import 'package:khana_peena_recipes/pages/favouritesScreen.dart';
 import '../Components/searchBar.dart';
+import 'package:khana_peena_recipes/Components/recipecard.dart';
 
 class HomeScreen extends StatefulWidget {
   final List<String> category;
@@ -81,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Expanded(child: Divider()),
             ]),
             ListView.builder(
-              itemCount: 2,
+              itemCount: 8           ,
               physics: ClampingScrollPhysics(),
               shrinkWrap: true,
               scrollDirection: Axis.vertical,
@@ -90,21 +91,29 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding:
                   EdgeInsets.symmetric(horizontal: 10.w, vertical: 10.h),
                   child: GestureDetector(
-                    onTap: () => showDialog(
-                      context: context,
-                      builder: (context) => AlertDialog(
-                        title: Text("Restaurant Details"),
-                        content: Text(
-                          "You tapped on restaurant card at index $index.",
-                        ),
-                        actions: [
-                          TextButton(
-                            onPressed: () => Navigator.pop(context),
-                            child: Text("Close"),
-                          ),
-                        ],
-                      ),
-                    ),
+
+
+
+                    onTap: () {
+                      showModalBottomSheet(
+                        context: context,
+                        isScrollControlled: true,
+                        backgroundColor: Colors.transparent,
+                        barrierColor: Colors.black54, // Ensure this is set
+                        enableDrag: true,
+                        isDismissible: true,
+                        builder: (BuildContext context) {
+                          return RecipeCard(
+                            title: 'Recipe Title ${index + 1}',
+                            details: 'This is where the recipe details for image $index will go. You can add ingredients, steps, and any other relevant information here.',
+                          );
+                        },
+                      );
+                    },
+
+
+
+
                     child: Card(
                       child: Container(
                         decoration: BoxDecoration(
@@ -221,3 +230,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+
