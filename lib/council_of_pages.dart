@@ -48,7 +48,7 @@ class _CouncilOfPagesState extends State<CouncilOfPages> {
   Widget build(BuildContext context) {
     ScreenUtil.init(context, designSize: const Size(360, 690));
     return Container(
-      color: Color(0xFFEEF1BD),
+      color: Color(0xFFB2675E),
       child: SafeArea(
         child: Scaffold(
           body: PageView(

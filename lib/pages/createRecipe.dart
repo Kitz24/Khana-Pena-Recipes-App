@@ -54,7 +54,6 @@ class _CreateScreenState extends State<CreateScreen> {
                 style: TextStyle(fontSize: 20),
               ),
               SizedBox(height: 10),
-              Divider(height: 20),
               SizedBox(height: 20,),
               Text("Just type the Food Name and get the Recipe!"),
               SizedBox(height: 10),
