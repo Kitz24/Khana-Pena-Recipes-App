@@ -47,14 +47,14 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image.asset(
-                  "assets/icon/paneericon.jpeg", // Path to your image asset
-                  width: 200, // Adjust as needed
-                  height: 200, // Adjust as needed
+                const Icon(
+                  Icons.security,
+                  size: 100,
+                  color: Colors.redAccent,
                 ),
                 SizedBox(height: 20), // Space between image and text
                 Text(
-                  "Welcome to     \n        Khaana Peena",
+                  "Welcome to     \n        All-in-One Security     \n    Loading...",
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,

@@ -10,6 +10,6 @@ class TokensScreen extends StatefulWidget {
 class _TokensScreenState extends State<TokensScreen> {
   @override
   Widget build(BuildContext context) {
-    return Center(child: const Text("Give me your MONEY 😈"));
+    return Center(child: const Text("💸 Subscription page"));
   }
 }

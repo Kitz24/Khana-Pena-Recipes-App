@@ -1,0 +1,36 @@
+[
+
+  {
+    "index": 69,
+    "title": "arey",
+    "cuisine": "bhai",
+    "time_required": "1 hour",
+    "ingredients": [
+      "1 cup whole black lentils",
+      "1/4 cup red kidney beans",
+      "1 large onion, finely chopped",
+      "2 tomatoes, pureed",
+      "2 tbsp ginger-garlic paste",
+      "1/2 cup heavy cream",
+      "1/4 cup butter",
+      "1 tsp cumin seeds",
+      "1 tsp garam masala",
+      "1 tsp chili powder",
+      "Salt to taste",
+      "Fresh cilantro, for garnish"
+    ],
+    "instructions": [
+      "Soak lentils and kidney beans overnight. Drain and rinse.",
+      "Cook lentils and beans in a pressure cooker with salt and water until soft.",
+      "In a pan, heat butter and add cumin seeds. Let them splutter.",
+      "Add onions and sauté until golden brown.",
+      "Add ginger-garlic paste and cook for 2 minutes.",
+      "Add tomato puree, garam masala, and chili powder. Cook until the oil separates.",
+      "Add the cooked lentils and beans. Simmer for 20 minutes.",
+      "Stir in heavy cream and simmer for another 5 minutes.",
+      "Garnish with fresh cilantro and serve hot with naan or rice."
+    ],
+    "image_path": "assets/graphics/Recipes/Dal Makhni.jpeg"
+  }
+
+]

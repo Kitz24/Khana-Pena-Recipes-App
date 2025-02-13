@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:like_button/like_button.dart';
 
 class CustomSearchBar extends StatelessWidget {
@@ -42,14 +43,7 @@ class CustomSearchBar extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 30),
-          LikeButton(
-            onTap: onLikeButtonTapped,
-            likeBuilder: (onLikeButtonTapped){
-              return Icon(
-                Icons.person_outline_rounded
-              );
-            },
-          )
+          IconButton(onPressed: () {}, icon: Icon(Icons.list_rounded,size: 32.w,))
         ],
       ),
     );

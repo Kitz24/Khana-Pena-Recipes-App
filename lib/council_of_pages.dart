@@ -48,7 +48,7 @@ class _CouncilOfPagesState extends State<CouncilOfPages> {
   Widget build(BuildContext context) {
     ScreenUtil.init(context, designSize: const Size(360, 690));
     return Container(
-      color: Color(0xFFB2675E),
+      color: Colors.red,
       child: SafeArea(
         child: Scaffold(
           body: PageView(
@@ -59,7 +59,7 @@ class _CouncilOfPagesState extends State<CouncilOfPages> {
               });
             },
             children: <Widget>[
-              HomeScreen(category: category),
+              HomeScreen(),
               FavouritesScreen(),
               CreateScreen(),
               TokensScreen(),
@@ -79,8 +79,8 @@ class _CouncilOfPagesState extends State<CouncilOfPages> {
                 selectedIndex: _selectedIndex,
                 tabs: const [
                   GButton(icon: Icons.home_outlined, text: "Home"),
-                  GButton(icon: Icons.favorite_border_rounded, text: "Favourites"),
-                  GButton(icon: Icons.create_outlined, text: "Create"),
+                  GButton(icon: Icons.favorite_border_rounded, text: "Take Control"),
+                  GButton(icon: Icons.create_outlined, text: "Test"),
                   GButton(icon: Icons.monetization_on_outlined, text: "Tokens"),
                 ],
               ),

@@ -1,0 +1,314 @@
+[
+  {
+    "index": 1,
+    "title": "Aloo Gobi",
+    "cuisine": "Indian",
+    "time_required": "30 minutes",
+    "ingredients": [
+      "2 cups cauliflower florets",
+      "2 cups diced potatoes",
+      "1 large onion, finely chopped",
+      "2 tomatoes, chopped",
+      "2 cloves garlic, minced",
+      "1 inch ginger, grated",
+      "1 tsp cumin seeds",
+      "1 tsp turmeric powder",
+      "1 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1/2 tsp garam masala",
+      "Salt to taste",
+      "2 tbsp oil",
+      "Fresh cilantro, chopped, for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large pan over medium heat.",
+      "Add cumin seeds and let them sizzle for a few seconds.",
+      "Add onions and cook until translucent, about 5 minutes.",
+      "Add garlic and ginger, and sauté for another minute.",
+      "Add potatoes and cauliflower, and stir well to coat with spices.",
+      "Add tomatoes, turmeric, coriander powder, chili powder, and salt. Mix well.",
+      "Cover and cook on low heat for 15-20 minutes until the vegetables are tender.",
+      "Stir occasionally to prevent sticking. Add a little water if needed.",
+      "Sprinkle with garam masala and garnish with fresh cilantro.",
+      "Serve hot with roti or rice."
+    ],
+    "image_path": "assets/graphics/Recipes/Aloo Gobi North.jpeg"
+  },
+  {
+    "index": 2,
+    "title": "BBQ BARBECUE CHICKEN",
+    "cuisine": "American",
+    "time_required": "20 minutes",
+    "ingredients": [
+      "4 chicken breasts",
+      "1/2 cup BBQ sauce",
+      "1 tbsp olive oil",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "1/2 tsp smoked paprika",
+      "Salt and pepper to taste",
+      "Fresh parsley, chopped, for garnish"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "In a bowl, mix together olive oil, garlic powder, onion powder, smoked paprika, salt, and pepper.",
+      "Rub the chicken breasts with the spice mixture.",
+      "Grill the chicken for 6-7 minutes per side or until fully cooked.",
+      "Brush with BBQ sauce during the last 2 minutes of grilling.",
+      "Remove from grill and let rest for 5 minutes.",
+      "Garnish with fresh parsley and serve with extra BBQ sauce."
+    ],
+    "image_path": "assets/graphics/Recipes/BBQ BARBECUE CHICKEN.jpeg"
+  },
+  {
+    "index": 3,
+    "title": "Chicken Biryani",
+    "cuisine": "Indian",
+    "time_required": "45 minutes",
+    "ingredients": [
+      "2 cups basmati rice",
+      "500g chicken, cut into pieces",
+      "1 large onion, sliced",
+      "2 tomatoes, chopped",
+      "2 tbsp yogurt",
+      "2 tsp ginger-garlic paste",
+      "1/2 cup mint leaves, chopped",
+      "1/2 cup coriander leaves, chopped",
+      "1 tsp cumin seeds",
+      "2 tsp garam masala",
+      "1 tsp turmeric powder",
+      "1 tsp red chili powder",
+      "Salt to taste",
+      "3 tbsp oil",
+      "2 cups water",
+      "1/2 cup fried onions, for garnish"
+    ],
+    "instructions": [
+      "Wash and soak basmati rice for 30 minutes, then drain.",
+      "Heat oil in a large pan and fry the sliced onions until golden brown. Set aside half for garnishing.",
+      "Add cumin seeds, ginger-garlic paste, and sauté until fragrant.",
+      "Add chicken pieces, turmeric, chili powder, and salt. Cook until the chicken is browned.",
+      "Add tomatoes, yogurt, mint, and coriander leaves. Cook for another 5-7 minutes.",
+      "Add garam masala and mix well.",
+      "In another pot, boil water and add rice. Cook until 70% done, then drain.",
+      "Layer the partially cooked rice over the chicken mixture.",
+      "Cover and cook on low heat for 20 minutes.",
+      "Garnish with fried onions and serve hot with raita."
+    ],
+    "image_path": "assets/graphics/Recipes/Chicken Biryani.jpeg"
+  },
+  {
+    "index": 4,
+    "title": "Chicken Tikka Biryani",
+    "cuisine": "Indian",
+    "time_required": "1 hour 10 minutes",
+    "ingredients": [
+      "500g chicken tikka pieces",
+      "2 cups basmati rice",
+      "1 large onion, sliced",
+      "1/2 cup yogurt",
+      "2 tomatoes, chopped",
+      "1 tsp cumin seeds",
+      "2 tsp garam masala",
+      "1 tsp turmeric powder",
+      "1 tsp red chili powder",
+      "Salt to taste",
+      "3 tbsp oil",
+      "1/2 cup mint leaves, chopped",
+      "1/2 cup coriander leaves, chopped",
+      "2 cups water",
+      "1/2 cup fried onions, for garnish"
+    ],
+    "instructions": [
+      "Marinate the chicken pieces with yogurt, turmeric, chili powder, garam masala, and salt for 1 hour.",
+      "Heat oil in a pan and fry the sliced onions until golden brown. Set aside half for garnishing.",
+      "Add cumin seeds and cook until fragrant.",
+      "Add marinated chicken pieces and cook until they are half done.",
+      "Add tomatoes, mint, and coriander leaves. Cook for another 5 minutes.",
+      "In another pot, boil water and add rice. Cook until 70% done, then drain.",
+      "Layer the partially cooked rice over the chicken mixture.",
+      "Cover and cook on low heat for 20 minutes.",
+      "Garnish with fried onions and serve hot with raita."
+    ],
+    "image_path": "assets/graphics/Recipes/Chicken Tikka Biryani.jpeg"
+  },
+  {
+    "index": 5,
+    "title": "Chicken Tikka Masala",
+    "cuisine": "Indian",
+    "time_required": "45 minutes",
+    "ingredients": [
+      "500g chicken breast, cubed",
+      "1 cup yogurt",
+      "2 tbsp lemon juice",
+      "1 tsp cumin powder",
+      "1 tsp coriander powder",
+      "1 tsp turmeric powder",
+      "1 tsp garam masala",
+      "2 tbsp oil",
+      "1 large onion, finely chopped",
+      "3 tomatoes, pureed",
+      "2 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "1/2 cup heavy cream",
+      "Salt to taste",
+      "Fresh cilantro, for garnish"
+    ],
+    "instructions": [
+      "In a bowl, mix yogurt, lemon juice, cumin, coriander, turmeric, and garam masala. Add chicken and marinate for 1 hour.",
+      "Heat oil in a pan and cook marinated chicken until fully cooked. Remove and set aside.",
+      "In the same pan, add more oil and sauté onions until golden.",
+      "Add garlic, ginger, and cook for another minute.",
+      "Add tomato puree, salt, and cook until the sauce thickens.",
+      "Add cooked chicken and simmer for 10 minutes.",
+      "Stir in heavy cream and cook for an additional 5 minutes.",
+      "Garnish with cilantro and serve hot with naan or rice."
+    ],
+    "image_path": "assets/graphics/Recipes/Chicken Tikka Masala.jpeg"
+  },
+  {
+    "index": 6,
+    "title": "Classic Cheeseburger",
+    "cuisine": "American",
+    "time_required": "20 minutes",
+    "ingredients": [
+      "500g ground beef",
+      "1 egg",
+      "1/2 cup breadcrumbs",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "Salt and pepper to taste",
+      "4 slices cheddar cheese",
+      "4 burger buns",
+      "Lettuce, tomato, pickles, and onions for topping",
+      "Ketchup, mustard, and mayo for serving"
+    ],
+    "instructions": [
+      "In a large bowl, mix ground beef, egg, breadcrumbs, garlic powder, onion powder, salt, and pepper.",
+      "Form into 4 patties.",
+      "Preheat a grill or skillet over medium-high heat.",
+      "Cook patties for 4-5 minutes per side or until desired doneness.",
+      "Top each patty with a slice of cheese and let it melt.",
+      "Assemble burgers with buns, patties, and desired toppings.",
+      "Serve hot with ketchup, mustard, and mayo."
+    ],
+    "image_path": "assets/graphics/Recipes/Classic Cheeseburger.jpeg"
+  },
+  {
+    "index": 7,
+    "title": "Dal Makhni",
+    "cuisine": "Indian",
+    "time_required": "1 hour",
+    "ingredients": [
+      "1 cup whole black lentils",
+      "1/4 cup red kidney beans",
+      "1 large onion, finely chopped",
+      "2 tomatoes, pureed",
+      "2 tbsp ginger-garlic paste",
+      "1/2 cup heavy cream",
+      "1/4 cup butter",
+      "1 tsp cumin seeds",
+      "1 tsp garam masala",
+      "1 tsp chili powder",
+      "Salt to taste",
+      "Fresh cilantro, for garnish"
+    ],
+    "instructions": [
+      "Soak lentils and kidney beans overnight. Drain and rinse.",
+      "Cook lentils and beans in a pressure cooker with salt and water until soft.",
+      "In a pan, heat butter and add cumin seeds. Let them splutter.",
+      "Add onions and sauté until golden brown.",
+      "Add ginger-garlic paste and cook for 2 minutes.",
+      "Add tomato puree, garam masala, and chili powder. Cook until the oil separates.",
+      "Add the cooked lentils and beans. Simmer for 20 minutes.",
+      "Stir in heavy cream and simmer for another 5 minutes.",
+      "Garnish with fresh cilantro and serve hot with naan or rice."
+    ],
+    "image_path": "assets/graphics/Recipes/Dal Makhni.jpeg"
+  },
+  {
+    "index": 8,
+    "title": "Grilled Chicken Salad",
+    "cuisine": "American",
+    "time_required": "20 minutes",
+    "ingredients": [
+      "2 chicken breasts",
+      "1 tbsp olive oil",
+      "1 tsp garlic powder",
+      "Salt and pepper to taste",
+      "4 cups mixed greens",
+      "1 cup cherry tomatoes, halved",
+      "1 cucumber, sliced",
+      "1/4 cup red onion, thinly sliced",
+      "1/4 cup feta cheese, crumbled",
+      "1/4 cup balsamic vinaigrette"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "Rub chicken breasts with olive oil, garlic powder, salt, and pepper.",
+      "Grill chicken for 5-6 minutes per side or until fully cooked.",
+      "Remove from grill and let rest for 5 minutes before slicing.",
+      "In a large bowl, combine mixed greens, cherry tomatoes, cucumber, red onion, and feta cheese.",
+      "Top with sliced grilled chicken and drizzle with balsamic vinaigrette.",
+      "Serve immediately."
+    ],
+    "image_path": "assets/graphics/Recipes/Grilled Chicken Salad.jpeg"
+  },
+  {
+    "index": 9,
+    "title": "Margarita Pizza",
+    "cuisine": "Italian",
+    "time_required": "15 minutes",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup mozzarella cheese, shredded",
+      "1/4 cup fresh basil leaves",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 475°F (245°C).",
+      "Roll out the pizza dough on a floured surface.",
+      "Spread tomato sauce evenly over the dough.",
+      "Sprinkle mozzarella cheese on top.",
+      "Add fresh basil leaves.",
+      "Drizzle with olive oil and sprinkle with salt.",
+      "Bake for 10-12 minutes or until the crust is golden and the cheese is bubbly.",
+      "Remove from the oven, slice, and serve hot."
+    ],
+    "image_path": "assets/graphics/Recipes/Margarita Pizza.jpeg"
+  },
+  {
+    "index": 10,
+    "title": "Veggie Pizza",
+    "cuisine": "Italian",
+    "time_required": "15 minutes",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup mozzarella cheese, shredded",
+      "1/4 cup bell peppers, sliced",
+      "1/4 cup red onion, sliced",
+      "1/4 cup black olives, sliced",
+      "1/4 cup mushrooms, sliced",
+      "1/4 cup cherry tomatoes, halved",
+      "1/4 cup spinach leaves",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tsp dried oregano",
+      "1 tsp chili flakes (optional)"
+    ],
+    "instructions": [
+      "Preheat oven to 475°F (245°C).",
+      "Roll out the pizza dough on a floured surface.",
+      "Spread tomato sauce evenly over the dough.",
+      "Sprinkle mozzarella cheese on top.",
+      "Add bell peppers, red onion, black olives, mushrooms, cherry tomatoes, and spinach leaves.",
+      "Drizzle with olive oil and sprinkle with salt, pepper, oregano, and chili flakes if using.",
+      "Bake for 12-15 minutes or until the crust is golden and the cheese is melted and bubbly.",
+      "Remove from the oven, slice, and serve hot."
+    ],
+    "image_path": "assets/graphics/Recipes/Veggie Pizza.jpeg"
+  }
+]

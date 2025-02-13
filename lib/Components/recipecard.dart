@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 
 class RecipeCard extends StatefulWidget {
   final String title;
-  final String details;
+  final String ingredients;
+  final String instructions;
 
-  RecipeCard({required this.title, required this.details});
+  RecipeCard({
+    required this.title,
+    required this.ingredients,
+    required this.instructions,
+  });
 
   @override
   _RecipeCardState createState() => _RecipeCardState();
@@ -51,16 +56,50 @@ class _RecipeCardState extends State<RecipeCard> {
                       padding: const EdgeInsets.all(16.0),
                       child: Text(
                         widget.title,
-                        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                        style: TextStyle(fontSize: 34, fontWeight: FontWeight.bold),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                      child: Text(
-                        widget.details,
-                        style: TextStyle(fontSize: 18),
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0), // Added vertical padding for separation between sections
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start, // Align text to the left
+                        children: [
+                          Text(
+                            "Ingredients:",
+                            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold), // Bold and slightly smaller header for better aesthetics
+                          ),
+                          SizedBox(height: 10), // Space between header and content
+                          ...widget.ingredients.split('\n').map((ingredient) => Padding( // Split by new lines
+                            padding: const EdgeInsets.symmetric(vertical: 4.0), // Padding between each ingredient
+                            child: Text(
+                              ingredient.trim(), // Trim whitespace for better formatting
+                              style: TextStyle(fontSize: 18, height: 1.5), // Adjusted line height for better readability
+                            ),
+                          )),
+                        ],
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0), // Added vertical padding for separation between sections
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start, // Align text to the left
+                        children: [
+                          Text(
+                            "Instructions:",
+                            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold), // Bold and slightly smaller header for better aesthetics
+                          ),
+                          SizedBox(height: 10), // Space between header and content
+                          ...widget.instructions.split('\n').map((instruction) => Padding( // Split by new lines
+                            padding: const EdgeInsets.symmetric(vertical: 4.0), // Padding between each instruction step
+                            child: Text(
+                              instruction.trim(), // Trim whitespace for better formatting
+                              style: TextStyle(fontSize: 18, height: 1.5), // Adjusted line height for better readability
+                            ),
+                          )),
+                        ],
+                      ),
+                    ),
+
                     // Add more widgets as needed to display the recipe
                   ],
                 ),
