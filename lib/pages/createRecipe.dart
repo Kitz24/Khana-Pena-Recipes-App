@@ -15,7 +15,8 @@ class _CreateScreenState extends State<CreateScreen> {
 
   // Two API keys are randomly selected (you can add more keys if needed)
   List<String> apiKeys = [
-
+    'AIzaSyCr9uw8WHJI_pcL3GesMuT0AHpM2f7ZWiQ',
+    'AIzaSyBpD6YQ9awMU7hfnS4eQ1KHZhAXDCEEKdI'
   ];
   String apiKeyRandomlySelected = '';
 

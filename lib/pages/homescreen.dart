@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_accessibility_service/flutter_accessibility_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -10,27 +11,16 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _urlController = TextEditingController();
 
-  void _checkUrl() {
-    final url = _urlController.text.trim();
-    if (url.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Please enter a URL")),
-      );
-      return;
-    }
-    // Navigate to the screen that will perform the phishing URL check.
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => CheckUrlScreen(url: url),
-      ),
-    );
-  }
-
   @override
   void dispose() {
     _urlController.dispose();
     super.dispose();
+  }
+
+  @override
+  void initState() {
+    super.initState();
+
   }
 
   @override
@@ -79,31 +69,3 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-/// This is a placeholder screen that represents where the phishing URL check
-/// would take place (e.g. calling the Gemini API and displaying the result).
-class CheckUrlScreen extends StatelessWidget {
-  final String url;
-
-  const CheckUrlScreen({super.key, required this.url});
-
-  @override
-  Widget build(BuildContext context) {
-    // In your real implementation, you would call your Gemini API here
-    // and then display the result.
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Checking URL"),
-      ),
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Text(
-            "Checking URL:\n$url",
-            textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 20),
-          ),
-        ),
-      ),
-    );
-  }
-}

@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:khana_peena_recipes/Components/searchBar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:khana_peena_recipes/pages/AccesibilityService.dart';
 import 'package:khana_peena_recipes/pages/createRecipe.dart';
 import 'package:khana_peena_recipes/pages/homescreen.dart';
 import 'package:khana_peena_recipes/pages/tokensScreen.dart';
@@ -63,6 +64,11 @@ class _CouncilOfPagesState extends State<CouncilOfPages> {
               FavouritesScreen(),
               CreateScreen(),
               TokensScreen(),
+              AccessibilityExample(
+                onPermissionNotEnabled: () {
+                  _pageController.jumpToPage(0); // Navigate to HomeScreen.
+                },
+              )
             ],
           ),
           bottomNavigationBar: Container(
@@ -82,6 +88,7 @@ class _CouncilOfPagesState extends State<CouncilOfPages> {
                   GButton(icon: Icons.favorite_border_rounded, text: "Take Control"),
                   GButton(icon: Icons.create_outlined, text: "Test"),
                   GButton(icon: Icons.monetization_on_outlined, text: "Tokens"),
+                  GButton(icon: Icons.auto_fix_high, text: "Realtime"),
                 ],
               ),
             ),
